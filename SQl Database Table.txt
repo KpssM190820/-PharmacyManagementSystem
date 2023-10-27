@@ -1,0 +1,20 @@
+CREATE TABLE hospital (
+    NameOfTablet VARCHAR(255),
+    ReferenceNo INT PRIMARY KEY,
+    Dose VARCHAR(255),
+    NumberOfTablets INT,
+    Lot VARCHAR(255),
+    IssueDate DATE,
+    ExpDate DATE,
+    DailyDose VARCHAR(255),
+    SideEffect VARCHAR(255),
+    FurtherInformation VARCHAR(255),
+    StorageAdvice VARCHAR(255),
+    DrivingUsingMachine VARCHAR(255),
+    HowToUseMedication VARCHAR(255),
+    PatientId INT,
+    NHSNumber VARCHAR(255),
+    PatientName VARCHAR(255),
+    DateOfBirth DATE,
+    PatientAddress VARCHAR(255)
+);
